@@ -14,4 +14,6 @@ def solution(roman):
         sum+=roman.pop(0) 
     return sum
 
-print(solution('MMCDXXV'))
+x = input('Введите римское число:')
+if x:
+    print(solution(x))

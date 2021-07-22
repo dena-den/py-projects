@@ -61,3 +61,5 @@ while parents[go]!='start':
     go=parents[go]
 print('start - '+way[::-1]+'fin')
 print('Fastest time in travel from start to fin is: ', costs['fin'])
+
+print(graph)
